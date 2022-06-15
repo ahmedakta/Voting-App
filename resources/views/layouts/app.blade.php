@@ -44,7 +44,6 @@
                 <img src="https://robohash.org/mail@ashallendesign.co.uk" alt="avatar" class="w-10 h-10 rounded-full">
             </a>
           </div>
-       
       </header>
 
       <main class="container mx-auto max-w-custom flex">
