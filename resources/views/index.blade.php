@@ -9,7 +9,7 @@
             </select>
         </div>
         <div class="w-1/3">
-            <select name="other_filters" id="other_filters " class="w-full rounded-xl border-none px-4 py-2">
+            <select name="category" id="category " class="w-full rounded-xl border-none px-4 py-2">
                 <option value="Filter one">Filter one</option>
                 <option value="Filter two">Filter two</option>
                 <option value="Filter three">Filter three</option>
@@ -78,7 +78,7 @@
         <div class="idea-container hover:shadow-card transition duration-150 ease-in bg-white rounded-xl flex cursor-pointer">
             <div class="border-r border-gray-100 px-4 py-12">
                 <div class="text-center">
-                    <div class="font-semibold text-xl">12</div>
+                    <div class="font-semibold text-xl text-blue-100">12</div>
                     <div class="text-gray-500">Votes</div>
                 </div>
 
@@ -106,8 +106,8 @@
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <div class="bg-gray-100 text-xs font-semibold uppercase leading-none 
-                            rounded-full text-center w-20 h-8 px-4 p-2">open</div>
+                            <div class="bg-yellow-500 text-xs font-semibold uppercase leading-none 
+                            rounded-full text-center w-25 h-8 px-4 p-2">in progress</div>
                             <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
@@ -149,8 +149,8 @@
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <div class="bg-gray-100 text-xs font-semibold uppercase leading-none 
-                            rounded-full text-center w-20 h-8 px-4 p-2">open</div>
+                            <div class="bg-blue -100 text-xs font-semibold uppercase leading-none 
+                            rounded-full text-center w-20 h-8 px-4 p-2">closed</div>
                             <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />

@@ -15,6 +15,9 @@ module.exports = {
                 current : 'currentColor',
                 'gray-background' : '#f7f8fc',
                 'blue' : '#328af1',
+                'blue-background' : '#328af1',
+                'regal-blue': '#243c5a',
+                'yellow': '#FFFF00',
                 'red' : '#ec454f',
                 'green' : '#1aab8b',
                 'purple' : '#8b60ed',
@@ -29,7 +32,7 @@ module.exports = {
                 dialog :'3px 4px 15px 0 rgba(36,37,38,0.22)',
             },
             maxWidth: {
-                custom : '62.5rem',
+                custom : '68.5rem',
             },
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
