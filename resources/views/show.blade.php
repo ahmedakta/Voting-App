@@ -222,7 +222,7 @@
                         class="flex items-center space-x-2">
                             <button 
                             @click = "isOpen = !isOpen"
-                            class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-4 py-3">
+                            class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -231,7 +231,7 @@
                                 x-show.transition.origin.top.left="isOpen"
                                 @click.away ="isOpen = false"
                                 @keydown.escape.window="isOpen = false"
-                                class="absolute w-44 z-10 text-left ml-8 font-semibold bg-white shadow-dialog rounded-xl py-2">
+                                class="absolute w-48 z-10 text-left ml-8 font-semibold bg-white shadow-dialog rounded-xl py-2">
                                     <li><a href="" class="hover:bg-gray-100 block transition duration-150 ease-in px-10 py-2">Mark As Spam</a></li>
                                     <li><a href="" class="hover:bg-gray-100 block transition duration-150 ease-in px-10 py-2">Delete Post</a></li>
                                 </ul>
@@ -262,7 +262,7 @@
                             <div> 10 hourse ago</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-4 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -294,7 +294,7 @@
                             <div> 10 hourse ago</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-4 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>

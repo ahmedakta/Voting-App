@@ -2,10 +2,10 @@
     <div class="filters flex space-x-6">
         <div class="w-1/3">
             <select name="category" id="category" class="w-full rounded-xl border-none px-4 py-2">
-                <option value="Categoey one">Caetgory one</option>
-                <option value="Categoey two">Caetgory two</option>
-                <option value="Categoey three">Caetgory three</option>
-                <option value="Categoey four">Caetgory four</option>
+                <option value="Categoey one">Category one</option>
+                <option value="Categoey two">Category two</option>
+                <option value="Categoey three">Category three</option>
+                <option value="Categoey four">Category four</option>
             </select>
         </div>
         <div class="w-1/3">
