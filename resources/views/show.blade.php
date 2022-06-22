@@ -52,7 +52,7 @@
     <div class="flex items-center space-x-4 ml-4">
         <button 
         type="button" 
-        class="flex item-center justify-center h-11 w-34 text-sm bg-blue-600 font-semibold rounded-xl border border-blue-200
+        class="flex item-center justify-center h-11 w-34 text-sm bg-blue -100 text-white font-semibold rounded-xl border border-blue-200
          hover:bg-blue-hover  transtion duration-150 ease-in px-6 py-3 mr-2">
             <span class="ml-1">Reply</span>
         </button>
@@ -78,8 +78,8 @@
             </button>
         </div>
     </div> <!-- end buttons continer -->
-    <div class="comments-container relative ml-22 space-y-6 my-8" style="margin-left: 74px">
-        <div class="comment-container bg-white rounded-xl flex mt-4 ">
+    <div class="comments-container relative ml-22 space-y-6 my-8 mt-1 pt-4" style="margin-left: 74px">
+        <div class="comment-container relative bg-white rounded-xl flex mt-4 ">
             <div class="flex flex-1 px-4 pt-6">
                 <a href="" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=2" alt="avatar" class="w-14 h-14 rounded-xl">
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </div> <!-- end comment container -->
-        <div class="comment-container bg-white rounded-xl flex mt-4 ">
+        <div class="is-admin comment-container relative bg-white rounded-xl flex mt-4 ">
             <div class="flex flex-1 px-4 pt-6">
                 <div class="flex-none">
                     <a href="" class="flex-none">
@@ -146,7 +146,7 @@
                 </div>
             </div>
         </div> <!-- end comment container -->
-        <div class="comment-container bg-white rounded-xl flex mt-4 ">
+        <div class="comment-container relative bg-white rounded-xl flex mt-4 ">
             <div class="flex flex-1 px-4 pt-6">
                 <a href="" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=4" alt="avatar" class="w-14 h-14 rounded-xl">

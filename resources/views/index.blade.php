@@ -108,7 +108,7 @@
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <div class="bg-yellow-500 text-xs font-semibold uppercase leading-none 
+                            <div class="bg-yellow -100 text-black text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-25 h-8 px-4 p-2">in progress</div>
                             <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -151,7 +151,7 @@
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <div class="bg-blue -100 text-xs font-semibold uppercase leading-none 
+                            <div class="bg-red -100 text-white text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-20 h-8 px-4 p-2">closed</div>
                             <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -194,8 +194,51 @@
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <div class="bg-gray-100 text-xs font-semibold uppercase leading-none 
-                            rounded-full text-center w-20 h-8 px-4 p-2">open</div>
+                            <div class="bg-green -100 text-xs text-white font-semibold uppercase leading-none 
+                            rounded-full text-center w-25 h-8 px-4 p-2">implemented</div>
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                                <svg xmlns="http://www.w3.org/3000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end idea container -->
+        <div class="idea-container hover:shadow-card transition duration-150 ease-in bg-white rounded-xl flex cursor-pointer">
+            <div class="border-r border-gray-100 px-4 py-12">
+                <div class="text-center">
+                    <div class="font-semibold text-xl">12</div>
+                    <div class="text-gray-500">Votes</div>
+                </div>
+
+                <div class="mt-8">
+                    <button class="w-20 bg-gray-100 border border-gray-100 hover:border-gray-200 font-semibold  text-xs uppercase rounded-xl px-4 py-4">Vote</button>
+                </div>
+            </div>
+            <div class="flex p-2 pt-6">
+                <a href="" class="flex-none">
+                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                </a>
+                <div class="mx-4">
+                    <h4 class="text-xl font-semibold ml-2">
+                        <a href="" class="hover:underline">Random Title Can Go Here</a>
+                    </h4>
+                    <div class="text-gray-600 mt-3 p-2 line-clamp-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur temporibus commodi error maiores itaque suscipit animi praesentium optio voluptates eligendi ad aperiam est illo sint aut numquam quam vero, iste nemo quaerat saepe assumenda beatae. Iure dolores vel nemo consectetur.
+                    </div>
+                    <div class="flex item-center justify-between mt-6">
+                        <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
+                            <div> 10 hourse ago</div>
+                            <div> &bull; </div>
+                            <div> Category 1</div>
+                            <div> &bull; </div>
+                            <div class="text-gray-800"> 3 Comments</div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="bg-purple -100 text-xs text-white font-semibold uppercase leading-none 
+                            rounded-full text-center w-25 h-8 px-4 p-2">Considering</div>
                             <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
                                 <svg xmlns="http://www.w3.org/3000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />

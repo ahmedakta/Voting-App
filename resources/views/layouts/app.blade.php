@@ -80,7 +80,7 @@
                         </button>
                         <button 
                         type="submit" 
-                        class="flex item-center justify-center w-1/2 h-11 text-sm bg-blue-100 font-semibold rounded-xl border border-blue-200 hover:bg-blue-hover  transtion duration-150 ease-in px-6 py-3">
+                        class="flex item-center justify-center w-1/2 h-11 text-sm bg-blue -100 text-white font-semibold rounded-xl border border-blue-200 hover:bg-blue-hover  transtion duration-150 ease-in px-6 py-3">
                             <span class="ml-1">submit</span>
                         </button>
                     </div>
