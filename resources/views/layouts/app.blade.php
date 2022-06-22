@@ -18,7 +18,7 @@
     </head>
     <body class="font-sans bg-gray-background text-gray-900 text-sm">
       <header class="flex items-center justify-between px-8 py-4">
-              <a href=""><img src="{{asset('img/a_logo.png')}}" alt="" class="w-50 h-20"></a>
+              <a href=""><img src="{{asset('img/a_logo1.png')}}" alt="" class="w-50 h-20"></a>
           <div class="flex items-center">
             @if (Route::has('login'))
             <div class="px-6 py-4">
@@ -41,7 +41,7 @@
             </div>
             @endif 
             <a href="">
-                <img src="https://robohash.org/mail@ashallendesign.co.uk" alt="avatar" class="w-10 h-10 rounded-full">
+                <img src="{{asset('img/robot1.png')}}" alt="avatar" class="w-10 h-10 rounded-full">
             </a>
           </div>
       </header>
