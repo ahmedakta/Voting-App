@@ -40,13 +40,21 @@
 }
 
 .is-admin::before{
-position: absolute;
-width: 38px;
-height: 38px;
-border-radius: 38px;
-border: 7px solid white;
-box-shadow: 4px 4px 15px 0 rgba(36,37,38,0.08);
-left: -58px;
-background: theme('colors.purple');
-opacity: 1;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    border: 7px solid white;
+    box-shadow: 4px 4px 15px 0 rgba(36,37,38,0.08);
+    left: -58px;
+    background: theme('colors.purple');
+    opacity: 1;
+}
+.is-admin{
+    border-width:1px;
+    border-image-source: linear-gradient(266deg,#21c8f6 98%,#637bff -53%);
+    border-image-slice:1;
+    background-image:linear-gradient(to bottom, white,white),linear-gradient(266deg,#21c8f6 98%,#677bff - 52%);
+    background-origin:border-box;
+    background-clip:content-box,border-box;
 }
