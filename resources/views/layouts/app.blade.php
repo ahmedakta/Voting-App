@@ -51,7 +51,7 @@
             <div class="bg-white border-2 border-blue rounded-xl mt-16">
                 <div class="text-center px-6 py-2 pt-6">
                     <h3 class="font-semibold text-base">Add an idea</h3>
-                    <p class="text-xs mt-6">Let us know what you woul like and we'll take a look over!!</p>
+                    <p class="text-xs mt-6">Let us know what you would like and we'll take a look over!!</p>
                 </div>
                 <form action="#" method="POST" class="space-y-6 px-4 py-6 ">
                     @csrf
