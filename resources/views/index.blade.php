@@ -58,14 +58,23 @@
                             <div> &bull; </div>
                             <div class="text-gray-800"> 3 Comments</div>
                         </div>
-                        <div class="flex items-center space-x-2">
+                        <div 
+                        x-data = "{ isOpen: false }"
+                        class="flex items-center space-x-2">
                             <div class="bg-gray-100 text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-20 h-8 px-4 p-2">open</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7 py-3">
+                            <button 
+                            @click = "isOpen = !isOpen"
+                            class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
-                                <ul class="absolute w-44 text-left ml-8 font-semibold bg-white shadow-dialog rounded-xl py-2">
+                                <ul 
+                                x-cloak
+                                x-show.transition.origin.top.left="isOpen"
+                                @click.away ="isOpen = false"
+                                @keydown.escape.window="isOpen = false"
+                                class=" absolute w-48 text-left ml-12 font-semibold bg-white shadow-dialog rounded-xl py-2">
                                     <li><a href="" class="hover:bg-gray-100 block transition duration-150 ease-in px-10 py-2">Mark As Spam</a></li>
                                     <li><a href="" class="hover:bg-gray-100 block transition duration-150 ease-in px-10 py-2">Delete Post</a></li>
                                 </ul>
@@ -110,7 +119,7 @@
                         <div class="flex items-center space-x-2">
                             <div class="bg-yellow -100 text-black text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-25 h-8 px-4 p-2">in progress</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-8  py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -153,7 +162,7 @@
                         <div class="flex items-center space-x-2">
                             <div class="bg-red -100 text-white text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-20 h-8 px-4 p-2">closed</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-8  py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -196,7 +205,7 @@
                         <div class="flex items-center space-x-2">
                             <div class="bg-green -100 text-xs text-white font-semibold uppercase leading-none 
                             rounded-full text-center w-25 h-8 px-4 p-2">implemented</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-8  py-2">
                                 <svg xmlns="http://www.w3.org/3000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -239,7 +248,7 @@
                         <div class="flex items-center space-x-2">
                             <div class="bg-purple -100 text-xs text-white font-semibold uppercase leading-none 
                             rounded-full text-center w-25 h-8 px-4 p-2">Considering</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/3000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
@@ -282,7 +291,7 @@
                         <div class="flex items-center space-x-2">
                             <div class="bg-gray-100 text-xs font-semibold uppercase leading-none 
                             rounded-full text-center w-20 h-8 px-4 p-2">open</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 py-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-8 py-2">
                                 <svg xmlns="http://www.w3.org/2000/svg"  class="w-20" height="14" fill="curentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                                 </svg>
