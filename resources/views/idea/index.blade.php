@@ -46,7 +46,7 @@
                 </a>
                 <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold ml-2">
-                        <a href="{{route('idea.show',$idea)}}" class="hover:underline">{{$idea->title}}</a>
+                        <a href="{{route('idea.show',$idea)}}" class="hover:underline">{{ $idea->title }}</a>
                     </h4>
                     <div class="text-gray-600 mt-3 p-2 line-clamp-3">
                             {{$idea->description}}                    
